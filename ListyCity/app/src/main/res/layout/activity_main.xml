@@ -18,6 +18,17 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="10dp"/>
 
+    <Button
+        android:id="@+id/buttonDeleteCity"
+        android:text="Delete City"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@+id/buttonAddCity"
+        app:layout_constraintTop_toTopOf="@+id/buttonAddCity">
+    </Button>
+
     <ListView
         android:id="@+id/listviewCities"
         android:layout_width="match_parent"
